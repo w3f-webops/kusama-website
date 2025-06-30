@@ -136,9 +136,15 @@ export default function Home() {
 		    href="https://kusama.subsquare.io/referenda/498"
                     className="border-[#ff0066] text-[#ff0066] hover:bg-[#ff0066]/10 bg-transparent"
                   >
-                    THE NEW VISION
+		  <a href="https://kusama.subsquare.io/referenda/498" target="_blank" rel="noopener noreferrer">
+    THE NEW VISION
+  </a>
                   </Button>
-                  <Button href="https://docs.polkadot.com" className="bg-[#ff0066] hover:bg-[#ff0066]/80 text-black">DEPLOY CODE</Button>
+                  <Button href="https://docs.polkadot.com" className="bg-[#ff0066] hover:bg-[#ff0066]/80 text-black">
+		  <a href="https://docs.polkadot.com" target="_blank" rel="noopener noreferrer">
+    DEPLOY CODE
+  </a>
+</Button>
                 </div>
               </div>
               <div className="relative h-64 md:h-96">
