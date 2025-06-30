@@ -133,11 +133,12 @@ export default function Home() {
                 <div className="flex space-x-4">
                   <Button
                     variant="outline"
+		    href="https://kusama.subsquare.io/referenda/498"
                     className="border-[#ff0066] text-[#ff0066] hover:bg-[#ff0066]/10 bg-transparent"
                   >
                     THE NEW VISION
                   </Button>
-                  <Button className="bg-[#ff0066] hover:bg-[#ff0066]/80 text-black">DEPLOY CODE</Button>
+                  <Button href="https://docs.polkadot.com" className="bg-[#ff0066] hover:bg-[#ff0066]/80 text-black">DEPLOY CODE</Button>
                 </div>
               </div>
               <div className="relative h-64 md:h-96">
