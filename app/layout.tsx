@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import type { Metadata } from 'next'
 import './globals.css'
 
@@ -15,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>{children}</body>
+      <Script src="https://apisa.web3.foundation/latest.js"  />
     </html>
   )
 }
