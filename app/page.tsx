@@ -41,10 +41,10 @@ export default function Home() {
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8 text-sm font-mono tracking-wider">
-            <Link href="/smart-contracts" className="text-white/80 hover:text-[#ff0066] transition-colors">
+            <Link href="https://docs.polkadot.com/" className="text-white/80 hover:text-[#ff0066] transition-colors">
               DEVELOPMENT DOCS
             </Link>
-            <Link href="/guide" className="text-white/80 hover:text-[#ff0066] transition-colors">
+            <Link href="https://wiki.polkadot.network/kusama/kusama-getting-started/" className="text-white/80 hover:text-[#ff0066] transition-colors">
               KUSAMA GUIDE
             </Link>
 
@@ -112,7 +112,7 @@ export default function Home() {
               builders. No safety nets. No promises.
             </p>
 
-            <HoverGlowButton href="/learn-more" variant="outline" size="lg">
+            <HoverGlowButton href="https://docs.polkadot.com/" variant="outline" size="lg">
               DARE TO BUILD
             </HoverGlowButton>
           </div>
