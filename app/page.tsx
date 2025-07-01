@@ -193,7 +193,7 @@ export default function Home() {
               <Link href="/privacy" className="hover:text-[#ff0066]">
                 PRIVACY POLICY
               </Link>
-              <Link href="/contact" className="hover:text-[#ff0066]">
+              <Link href="/disclaimer" className="hover:text-[#ff0066]">
                 DISCLAIMER
               </Link>
               <span>© {new Date().getFullYear()} KUSAMA</span>
