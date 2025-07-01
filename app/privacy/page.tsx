@@ -23,7 +23,12 @@ export default function Home() {
             />
           </Link>
 
-          <nav className="hidden md:flex items-center space-x-8 text-sm font-mono tracking-wider"> 
+          <nav className="hidden md:flex items-center space-x-8 text-sm font-mono tracking-wider">
+
+            <Link href="/smart-contracts" className="text-[#ff0066] transition-colors">
+              CONTRACTS
+            </Link>
+
             <Link href="https://docs.polkadot.com/" className="text-white/80 hover:text-[#ff0066] transition-colors">
               DEVELOPMENT DOCS
             </Link>
