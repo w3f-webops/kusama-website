@@ -360,7 +360,7 @@ export default function SmartContractsPage() {
                 Your feedback helps us improve. Test, break things, and let us know what you find.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="https://forms.gle/UnbREp8Ee8PuWHXa8">
+                <Link href="mailto:feedback@kusama.network">
                   <Button className="bg-[#ff0066] hover:bg-[#ff0066]/80 text-black font-mono">SUBMIT FEEDBACK</Button>
                 </Link>
                 <Link href="https://github.com/paritytech/contract-issues/">
