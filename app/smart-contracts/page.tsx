@@ -176,7 +176,7 @@ export default function SmartContractsPage() {
                 <div className="text-white mb-4">
                   {`networks: {
   kusama: {
-    url: "https://kusama-asset-hub-eth-rpc.polkadot.io",
+    url: "https://eth-rpc-kusama.polkadot.io/",
     chainId: 420420418
   }
 }`}
@@ -223,7 +223,7 @@ export default function SmartContractsPage() {
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-white/70 font-mono text-sm">ETH-RPC Endpoint</span>
                       <button
-                        onClick={() => copyToClipboard("https://kusama-asset-hub-eth-rpc.polkadot.io", "eth-rpc")}
+                        onClick={() => copyToClipboard("https://eth-rpc-kusama.polkadot.io/", "eth-rpc")}
                         className="text-white/50 cursor-pointer hover:text-[#ff0066] transition-colors"
                       >
                         {copiedEndpoint === "eth-rpc" ? (
@@ -234,7 +234,7 @@ export default function SmartContractsPage() {
                       </button>
                     </div>
                     <code className="text-[#ff0066] text-sm break-all">
-                      https://kusama-asset-hub-eth-rpc.polkadot.io
+                      https://eth-rpc-kusama.polkadot.io/
                     </code>
                   </div>
 
@@ -242,7 +242,7 @@ export default function SmartContractsPage() {
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-white/70 font-mono text-sm">Block Explorer</span>
                       <Link
-                        href="https://blockscout-kusama-asset-hub.parity-chains-scw.parity.io"
+                        href="https://blockscout-kusama.polkadot.io/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -250,7 +250,7 @@ export default function SmartContractsPage() {
                       </Link>
                     </div>
                     <code className="text-[#ff0066] text-sm break-all">
-                      blockscout-kusama-asset-hub.parity-chains-scw.parity.io
+                      blockscout-kusama.polkadot.io
                     </code>
                   </div>
                 </div>
