@@ -32,11 +32,18 @@ export function MobileNav({ isOpen, setIsOpen }: MobileNavProps) {
             CONTRACTS
           </Link>
           <Link
-            href="/guide"
+            href="/vision"
             className="text-white/80 hover:text-[#ff0066] transition-colors"
             onClick={handleLinkClick}
           >
-            GUIDE
+            BOUNTIES
+          </Link>
+          <Link
+            href="https://wiki.polkadot.network/kusama/kusama-getting-started/"
+            className="text-white/80 hover:text-[#ff0066] transition-colors"
+            onClick={handleLinkClick}
+          >
+            KUSAMA GUIDE
           </Link>
         </nav>
 
