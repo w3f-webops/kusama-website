@@ -14,7 +14,7 @@ const bounties = [
     title: "PROOF OF PERSONHOOD",
     icon: Shield,
     description:
-      "This bounty explores decentralized ways of proving unique human individuality online without surveillance or compromising transparency while maintaining privacy and true decentralization.",
+      "This bounty explores sybil-resilient, decentralized, public good and privacy-preserving ways for humans to prove their unique personhood online, without surveillance or revealing who they are.",
     applyLink: "https://ipfs.io/ipns/k51qzi5uqu5dk1h0t1ofq49oww8ykmcnsxl1h3m0d41pb58eog9f9yjjwxnnwh/",
     formsLink: "https://formstr.app/i/kusama-pop",
     color: "#00ffff",
