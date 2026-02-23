@@ -35,9 +35,8 @@ const bounties = [
     icon: Palette,
     description:
       "This bounty enables artists and creators to contribute to Kusama's cypherpunk philosophy and embody it in traditional art forms, media, avant-garde artifacts, or social on-chain happenings that represent the Web3 values to the existing community and new audiences.",
-    applyLink: "https://jasper-guavaberry-3d0.notion.site/2ff2d70977f280bb84c5c9a1313442fd",
-    formsLink: "https://www.notion.so/2ff2d70977f280bb84c5c9a1313442fd",
-    tcLink: "https://drive.google.com/file/d/1Mp3gDs9IGylRGEdV0vVEx8SABXqogAcH/view",
+    applyLink: "https://art.ksm.vision",
+    formsLink: "https://art.ksm.vision/basis-terms/",
     color: "#9900ff",
   },
 ]
